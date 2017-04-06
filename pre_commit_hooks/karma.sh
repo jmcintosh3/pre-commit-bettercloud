@@ -4,7 +4,9 @@ yellow="\033[1;33m"
 green="\033[1;32m"
 reset="\033[0m"
 
+cd client/
 npm test
+cd ../
 
 
 # now if tests failed let's abort commit by "exit 1"
