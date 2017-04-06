@@ -1,6 +1,6 @@
 -   id: karma
     name: karma
-    entry: karma
+    entry: pre_commit_hooks/karma.sh
     language: script
     files: \.js$
     args: []
