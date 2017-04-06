@@ -4,14 +4,10 @@ yellow="\033[1;33m"
 green="\033[1;32m"
 reset="\033[0m"
 
-echo "changed to client"
 cd client/
-echo "changed to client"
 npm test
 testResults=$?
-echo "ran tests"
 cd ../
-echo "changed directory back"
 
 
 # now if tests failed let's abort commit by "exit 1"
